@@ -1,0 +1,13 @@
+<div class="col lg 4" *ngFor="let message of messages">
+  <div class="card" >
+    <h4 class="card-title"> New </h4>
+    <div class="card-content">
+      <p> {{message.content}} </p>
+    </div>
+    <div class="card-action">
+      <span>Author: </span><a href="#"> {{message.author}} </a>
+    </div>
+
+  </div>
+</div>
+
